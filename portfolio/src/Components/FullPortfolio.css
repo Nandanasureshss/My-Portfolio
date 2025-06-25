@@ -1,0 +1,6 @@
+.PortfolioBackground {
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    min-height: 100vh;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}

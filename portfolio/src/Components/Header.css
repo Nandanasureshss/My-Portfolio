@@ -1,0 +1,38 @@
+.custom-header {
+    background: transparent;
+    color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.site-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.nav-link-custom {
+    color: #ffffff !important;
+    font-weight: 500;
+    margin: 0 20px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.nav-link-custom:hover {
+    color: #6ad3ff !important;
+}
+
+.nav-link-custom::after {
+    display: block;
+    height: 2px;
+    width: 0;
+    background: #6ad3ff;
+    transition: width 0.3s;
+}
+
+.nav-link-custom:hover::after {
+    width: 100%;
+}

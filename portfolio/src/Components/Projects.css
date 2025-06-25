@@ -1,0 +1,40 @@
+#projects {
+  background: transparent;
+  padding: 80px 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.project-card {
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 20px;
+  padding: 25px;
+  border: none;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: #ffffff;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 45px rgba(0, 0, 0, 0.35);
+}
+
+.project-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+color: #6ad3ff;
+  margin-bottom: 10px;
+}
+
+.project-tech {
+  font-size: 0.95rem;
+  color: #ddd;
+}
+
+.project-desc {
+  font-size: 0.95rem;
+  color: #f5f5f5;
+  margin-top: 10px;
+  text-align: justify;
+  line-height: 1.6;
+}
